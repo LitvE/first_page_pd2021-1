@@ -12,9 +12,16 @@
 
 }
 
-.navStyle{
+/* .navStyle{
     display: inline-block;
 
+} */
+
+.cont-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
 
 .nav-span{
@@ -78,6 +85,7 @@
     line-height: 38px;
     letter-spacing: 0.2px;
     margin-bottom: 50px;
+    color: #FFFFFF;
 }
 
 .button-container{
@@ -92,7 +100,7 @@ button {
     line-height: 36px;
     height: 68px;
     width: 236px;
-    padding: 16px 0px;
+    padding: 18px 0px;
 }
 
 .button-style1{
@@ -105,4 +113,37 @@ button {
 .button-style2{
     border: 1px solid #FFFFFF;
     background: none;
+}
+
+.order_title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;   
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;  
+}
+
+.order{
+    background-image: url(../img/back2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 147px 0 131px;
+
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-cont{
+    max-width: 1210px;
+    margin: 0 auto;
 }
