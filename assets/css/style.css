@@ -26,8 +26,6 @@
 
 .nav-span{
     margin-right: 114px;
-    padding-bottom: 30px;
-
 }
 
 .nav-a{
@@ -61,7 +59,7 @@
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.1px;
-
+    color: #f7f7f7;
 }
 
 .restapp-title{
@@ -71,6 +69,7 @@
     font-size: 58px;
     line-height: 80px;
     letter-spacing: 0.2px;
+    color: #ffffff;
     margin: 10px auto;
     max-width: 799px;
 
@@ -106,7 +105,7 @@ button {
 .button-style1{
     background: #FA4A0C;
     border: none;
-    margin-right: 30px;
+    margin-right: 35px;
 
 }
 
@@ -114,6 +113,51 @@ button {
     border: 1px solid #FFFFFF;
     background: none;
 }
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 142px 0;
+    
+}
+
+.mobile_head{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+
+}
+
+.mobile_title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    max-width: 560px;
+    margin: 17px 0;
+}
+
+.mobile_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+    max-width: 467px;
+    margin: 27px 0;
+}
+
 
 .order_title{
     font-family: Montserrat;
@@ -125,6 +169,7 @@ button {
     letter-spacing: 0.2px;
     color: #FFFFFF;  
 }
+
 
 .order{
     background-image: url(../img/back2.png);
