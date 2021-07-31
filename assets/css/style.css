@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+
+}
+
+.navStyle{
+    display: inline-block;
+
+}
+
+.nav-span{
+    margin-right: 114px;
+    padding-bottom: 30px;
+
+}
+
+.nav-a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #252B42;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+
+}
+
+.restapp{
+    background-image: url(../img/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #F7F7F7;
+    padding: 80px 0 178px;
+
+}
+
+.restapp-info{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+
+}
+
+.restapp-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    margin: 10px auto;
+    max-width: 799px;
+
+}
+
+.restapp-about{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    margin-bottom: 50px;
+}
+
+.button-container{
+
+}
+
+button {
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    height: 68px;
+    width: 236px;
+    padding: 16px 0px;
+}
+
+.button-style1{
+    background: #FA4A0C;
+    border: none;
+    margin-right: 30px;
+
+}
+
+.button-style2{
+    border: 1px solid #FFFFFF;
+    background: none;
+}
