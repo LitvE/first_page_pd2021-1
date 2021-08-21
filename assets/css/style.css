@@ -19,10 +19,6 @@
 
 }
 
-/* .navStyle{
-    display: inline-block;
-
-} */
 
 .cont-flex{
     display: flex;
@@ -44,8 +40,12 @@
     color: var(--secondary-title-color);
     text-align: center;
     letter-spacing: 0.2px;
+}
 
-
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .restapp{
@@ -96,7 +96,10 @@
 }
 
 .button-container{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 button {
@@ -122,6 +125,54 @@ button {
     background: none;
 }
 
+.newPhones{
+    /*max-width: 548px;*/
+    height: 640px;
+    margin-top: -240px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items:  center;
+    margin-bottom: 10px;
+}
+
+.newPhone_1{
+    align-self: flex-start;
+    max-width: 299px;
+    max-height: 586px;
+}
+
+.newPhone_1 > img {
+    width: 299px;
+    height: 586px;
+}
+
+.newPhone_2{
+    align-self: flex-end;
+    max-width: 285px;
+    max-height: 531px;
+}
+
+.newPhone_2 > img{
+    width: 285px;
+    height: 531px;
+}
+
+.lineContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 125px;
+    margin-bottom: 72px;
+}
+
+.lineBorder{
+    width: 884px;
+    height: 0px;
+    border: 3px solid #E4E4E4;
+}
+
 .appWorks{
     text-align: center;
     font-family: Poppins;
@@ -135,20 +186,22 @@ button {
     }
 
 .container{
-    margin-top: 70px;
+    /* margin-top: 70px;
     margin-bottom: 79.03px;
     margin-left: 174px;
-    margin-right: 161px;
+    margin-right: 161px; */
+    margin: auto 0;
 }
 
 .container2{
-    margin: 29px 197px 43px 175px;
-
+    /*margin: 29px 197px 43px 175px;*/
+    margin: auto 0;
 }
 
 .mobile{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: row-reverse;
     align-items: center;
     margin-bottom: 142px 0;
     
@@ -156,9 +209,9 @@ button {
 
 .mobile2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: row-reverse;
+    flex-direction: row;
     /* margin-left: 175px; */
 }
 
@@ -236,6 +289,17 @@ button {
     margin: 27px 0;
 }
 
+.order{
+    background-image: url(../img/back2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 147px 0 131px;
+    margin-top: 148px;
+}
+
+
 .order_title{
     font-family: Montserrat;
     font-style: normal;
@@ -247,15 +311,9 @@ button {
     color: #FFFFFF;  
 }
 
-
-.order{
-    background-image: url(../img/back2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 147px 0 131px;
-    margin-top: 148px;
+.button-style3{
+    border: 1px solid #FFFFFF;
+    background: none;
 }
 
 .footer-flex{
@@ -268,4 +326,180 @@ button {
 .footer-cont{
     max-width: 1210px;
     margin: 0 auto;
+}
+
+@media screen and (min-width: 414px) and (max-height: 896px){
+    .container{
+        margin: 0 auto;
+        max-width: 414px;   
+    }
+
+    .nav-span{
+        margin: auto 0;
+    }
+
+    .restapp{
+        background: #FAFAFA;
+        padding: 10px;
+        margin-bottom: 10px;    
+    }
+
+    .restapp-info{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #737373;
+        
+    }
+    
+    .restapp-title{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+    
+    .restapp-about{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+    }
+
+    .button-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .button-style1{
+        background: var(--primary-title-color);
+        border: none;
+        margin-right: 0;
+        margin-bottom: 33px;
+    }
+
+    .button-style2{
+        border: 1px solid #FA4A0C;
+        background: none;
+        color: #FA4A0C;
+    }
+
+    .newPhones{
+        max-width: 422px;
+        max-height: 492px;
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items:  center;
+        margin-left: -16px;
+        margin-bottom: 10px;
+    }
+    
+
+    .newPhone_1{
+        max-width: 230px;
+        max-height: 451px;
+    }
+
+    .newPhone_1 > img{
+        width: 230px;
+        height: 451px;
+    }
+    
+    .newPhone_2{
+        max-width: 219px;
+        max-height: 408px;
+    }
+
+    .newPhone_2 > img{
+        width: 219px;
+        height: 408px;
+    }
+
+    .lineContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 46px;
+        margin-bottom: 65px;
+    }
+    
+    .lineBorder{
+        width: 414px;
+        height: 0px;
+        border: 3px solid #E4E4E4;
+    }
+    
+    .appWorks{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #000000;       
+    }
+
+    .mobile{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .textInfo{
+        text-align: center;
+        margin: 10px;
+    }
+    
+
+    .mobile2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .order{
+        background-image: none;
+        background-color: #252B42;;
+        text-align: center;
+        padding: 110px 24px;
+        margin-top: 93px;
+    }
+
+    .navStyle{
+        padding: 17px 16px;
+    }
+
+    .footer-flex{
+        justify-content: center;
+    }
+    
+
+    .footerLogo{
+        display: none;
+    }
+
+    .pFooter{
+        text-align: center;
+    }
 }
