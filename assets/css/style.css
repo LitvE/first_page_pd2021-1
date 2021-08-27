@@ -22,9 +22,13 @@
 
 .cont-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 20px 0;
+}
+
+.navStyle{
+    text-align: center;
 }
 
 .nav-span{
@@ -183,18 +187,14 @@ button {
     letter-spacing: 0.1px;
     color: #000000;
     opacity: 0.8;
+    margin-bottom: 70px;
     }
 
-.container{
-    /* margin-top: 70px;
-    margin-bottom: 79.03px;
-    margin-left: 174px;
-    margin-right: 161px; */
+.container1{
     margin: auto 0;
 }
 
 .container2{
-    /*margin: 29px 197px 43px 175px;*/
     margin: auto 0;
 }
 
@@ -216,7 +216,7 @@ button {
 }
 
 .textInfo{
-    max-width: 568px;
+
 }
 
 .mobile_head{
@@ -328,9 +328,9 @@ button {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 414px) and (max-height: 896px){
+@media screen and (device-width: 414px) and (device-height: 896px){
     .container{
-        margin: 0 auto;
+        margin: 0;
         max-width: 414px;   
     }
 
